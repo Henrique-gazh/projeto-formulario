@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+
+body {
+    background-image: linear-gradient(to bottom, #B46FE5, #82B8C5);
+    }   
+
+#login {
+        background-color: white;
+        max-width: 750px;
+        width: 85%; 
+        height: 350px;
+        margin: 50px auto;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+        display: flex; 
+}
+
+#imagem {
+        width: 45%;
+        background-image: url('metal.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%; 
+        border-radius: 10px 0px 0px 10px;
+}
+
+
+#saida > input, #saida > a {
+        width: 90%;
+        margin: 5px auto;
+}
+
+#form {
+    width: 55%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: surgir 0.6s ease-in-out;;
+}
+
+/* 🎬 Cria o efeito de "surgir" do zero (invisível) até o 100% (visível) */
+@keyframes surgir {
+    from {
+        opacity: 0;
+        transform: translateX(10px); /* Dá um leve efeito de deslizar vindo da direita */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
