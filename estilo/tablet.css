@@ -29,6 +29,8 @@ body {
         background-size: cover;
         height: 100%; 
         border-radius: 10px 0px 0px 10px;
+        display: flex;
+        order: 1;
 }
 
 
@@ -44,6 +46,7 @@ body {
         flex-direction: column;
         justify-content: center;
         animation: surgir 0.6s ease-in-out;
+        order: 2;
 }
 
 @keyframes surgir {
