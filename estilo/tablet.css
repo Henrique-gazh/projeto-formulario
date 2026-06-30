@@ -1,14 +1,18 @@
 @charset "UTF-8";
 
-
+html{
+        max-width: 768px;
+        width: 100%;
+        height: 100vh;
+}
 
 body {
-    background-image: linear-gradient(to bottom, #B46FE5, #82B8C5);
-    }   
+        background-image: linear-gradient(to bottom, #B46FE5, #82B8C5);
+}   
 
 #login {
         background-color: white;
-        max-width: 750px;
+        max-width: 768px;
         width: 85%; 
         height: 350px;
         margin: 50px auto;
@@ -34,22 +38,21 @@ body {
 }
 
 #form {
-    width: 55%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transition: surgir 0.6s ease-in-out;;
+        width: 55%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        animation: surgir 0.6s ease-in-out;
 }
 
-/* 🎬 Cria o efeito de "surgir" do zero (invisível) até o 100% (visível) */
 @keyframes surgir {
-    from {
-        opacity: 0;
-        transform: translateX(10px); /* Dá um leve efeito de deslizar vindo da direita */
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+        from {
+                opacity: 0;
+                transform: translateX(10px);
+        }
+        to {
+                opacity: 1;
+                transform: translateX(0);
+        }
 }
