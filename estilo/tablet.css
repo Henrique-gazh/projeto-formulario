@@ -24,7 +24,7 @@ body {
 #imagem {
         width: 45%;
         background-image: url('metal.jpg');
-        background-position: center center;
+        background-position: left bottom;
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%; 

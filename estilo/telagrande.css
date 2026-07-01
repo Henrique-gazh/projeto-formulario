@@ -16,14 +16,14 @@ body {
         height: 500px;
         margin: 50px auto;
         border-radius: 10px;
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.450);
         display: flex; 
 }
 
 #imagem {
         width: 45%;
         background-image: url('metal.jpg');
-        background-position: center center;
+        background-position: left bottom;
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%; 
