@@ -6,7 +6,7 @@ html{
 }
 
 body {
-    background-image: linear-gradient(to bottom, #B46FE5, #82B8C5);
+    background-image: linear-gradient(to top, #B46FE5, #82B8C5);
 }   
 
 #login {
